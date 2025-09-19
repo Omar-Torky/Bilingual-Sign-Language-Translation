@@ -1,6 +1,6 @@
 # 🖐️ Sign Language Recognition with Mediapipe & RandomForest
 
-![Arabic Alphabet](Arabic Letters)
+<img src="Arabic Letters.jpg" alt="Arabic Alphabet" width="400">
 
 
 This project implements a **real-time Sign Language Recognition system** using [Mediapipe Hands](https://google.github.io/mediapipe/solutions/hands.html) for landmark extraction and a **Random Forest Classifier** for classification.  
