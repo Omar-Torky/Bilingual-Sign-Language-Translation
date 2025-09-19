@@ -14,7 +14,7 @@ It enables users to form words and sentences by signing letters (A–Z) along wi
 - Keyboard controls for enhanced usability:
   - **Q** → Quit  
   - **C** → Clear sentence  
-  - **Space** → Insert space  
+  - **Space** → Switch Language  
   - **Z** → Backspace  
 
 ---
@@ -29,7 +29,7 @@ It enables users to form words and sentences by signing letters (A–Z) along wi
 ├── collect_imgs.py   # Collects gesture data via webcam
 ├── create_dataset.py     # Extracts hand landmarks & saves dataset
 ├── train_classifier.py    # Trains Random Forest classifier
-├── inference_classifier.py      # Real-time gesture recognition and sentence builder
+├── Inference.ipynb      # Real-time gesture recognition and sentence builder
 └── README.md
 ```
 
@@ -38,8 +38,8 @@ It enables users to form words and sentences by signing letters (A–Z) along wi
 # ⚙️ Installation
 ## 1. Clone this repository:
 ```bash
-git clone https://github.com/Omar-Torky/American-Sign-Language-Translator.git
-cd American-Sign-Language-Translator
+git clone https://github.com/Omar-Torky/Bilingual-Sign-Language-Translator.git
+cd Bilingual-Sign-Language-Translator
 ```
 
 ## 2. Create a virtual environment (optional but recommended):
@@ -84,14 +84,14 @@ python train_classifier.py
 ## 4. Run Real-time Recognition
 - Start the live webcam recognition:
 ```bash
-python inference_classifier.py
+python Inference.ipynb
 ```
 ---
 
 # 🎮 Controls
 - Q → Quit Program
 - C → Clear Sentence
-- Space → Add Space
+- Space → Switch Language
 - Z → Backspace
 
 ---
