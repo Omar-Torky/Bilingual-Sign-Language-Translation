@@ -1,7 +1,7 @@
 # 🖐️ Sign Language Recognition with Mediapipe & RandomForest
 
 This project implements a **real-time Sign Language Recognition system** using [Mediapipe Hands](https://google.github.io/mediapipe/solutions/hands.html) for landmark extraction and a **Random Forest Classifier** for classification.  
-It enables users to form words and sentences by signing letters (A–Z)| (أ-ي) along with **Space** and **Backspace** gestures in real-time using a webcam.
+It enables users to form words and sentences by signing letters (A–Z) | (أ-ي) along with **Space** and **Backspace** gestures in real-time using a webcam.
 
 ---
 
